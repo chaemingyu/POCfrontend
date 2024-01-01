@@ -1,9 +1,12 @@
 import './App.css';
-import Test from './componenents/Test';
+import Router from './common/Router';
 function App() {
   return (
     <div className="App">
-      <Test></Test>
+      {/* <Header></Header> */}
+      {/* <Home></Home> */}
+      <Router/>
+      {/* <Test></Test> */}
     </div>
   );
 }
